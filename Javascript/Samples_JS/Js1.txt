@@ -1,0 +1,126 @@
+//Sample
+let price= 400;
+let product = "Bags";
+let tax = 2.5866;
+console.log("Product: ",product);
+var total = price+tax;
+console.log("Total price include tax:",total.toFixed(2));
+Output:
+Products: Bags
+Total price include tax: 402.59
+
+//Sample2
+var FruitName = "Apple";
+var count = 6;
+var price = 45;
+var total = price * count;
+console.log("Fruits:",FruitName);
+console.log("Total Price of the fruits:",total)
+Output:
+Fruits: Apple
+Total price of the fruits: 270
+
+//Sample3
+function samsung()
+{
+    console.log("This is Samsung");
+}
+function Redmi()
+{
+    console.log("This is Redmi");
+}
+function Vivo()
+{
+    console.log("This is Vivo");
+}
+function Oppo()
+{
+    console.log("This is Oppo");
+}
+samsung()
+Redmi()
+Vivo()
+Oppo()
+Output:
+This is Samsung 
+This is Redmi
+This is Vivo
+This is Oppo
+
+//Sample4
+function add()
+{
+    let a = 10;
+    let b = 20;
+    let c = a+b;
+    console.log("The addition of two numbers is: ", c)
+}
+add()
+Output:
+The addition of two numbers is: 30
+
+//Sample5
+var factor = "Suriya";
+var fcricketer = "Rohit Sharma";
+var fmovie = "7 aam Arivu";
+function favourite()
+{
+    console.log("Favourite Actor: ", factor);
+    console.log("Favourite Cricketer: ", fcricketer);
+    console.log("Favourite Movie: ", fmovie);
+}
+favourite()
+Output:
+Favourite Actor: Suriya
+Favourite Cricketer: Rohit Sharma
+Favourite Movie: 7aam Arivu
+
+//Sample6
+var length = 10;
+var breadth = 15;
+function area()
+{
+    console.log("Result: ", length*breadth);
+}
+area()
+Output:
+Result: 150
+
+//Sample7
+//IF ELSE EXERCISES
+var rain = false;
+if(rain)
+    {
+        console.log("Take an Umbrella")
+    }
+else
+{
+    console.log("Enjoy the Sunshine")
+}
+Output:
+Enjoy the Sunshine.
+
+//Sample8
+var homework = false;
+if(homework)
+    {
+        console.log("Great Job!")
+    }
+else{
+    console.log("Finish your homework before playing")
+}
+Output:
+Finish your homework before playing
+
+//Sample9
+var cookies = true;
+if(cookies)
+    {
+        console.log("Would you like a cookie?")
+    }
+else{
+    console.log("Time to bake more cookies..")
+}
+Output;
+Would you like a cookies?
+

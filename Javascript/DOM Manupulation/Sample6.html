@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Button Color</title>
+    <style>
+        #colorButton {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <button id="colorButton">Click Me</button>
+
+    <script>
+        // Get a reference to the button
+        var colorButton = document.getElementById("colorButton");
+
+        // Add an event listener to the button
+        colorButton.addEventListener("click", function() {
+            // Change the button's color to red
+            colorButton.style.backgroundColor = "red";
+        });
+    </script>
+</body>
+</html>
